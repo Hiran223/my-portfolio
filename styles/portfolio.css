@@ -89,9 +89,21 @@ nav a{
     margin-bottom: 30px;
 }
 /* start to main section  */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
 .about{
     padding: 130px;
     background:#fff8f3;
     border-radius: 10px;
     margin: 130px 0;
+}
+.about-information-content{
+    display: flex;
+    justify-content: space-around;
+}
+.about-inf{
+    text-align: center;
 }
