@@ -7,6 +7,8 @@ body{
 /* navgation style  */
  nav{
     display: flex;
+    align-items: center;
+    justify-content: space-between;
  }
  .navtitle{
     font-size: 45px;
@@ -19,6 +21,7 @@ body{
 }
 nav > ul{
     display: flex;
+    align-items: center;
 }
 nav li{
     list-style: none;
@@ -31,4 +34,8 @@ nav a{
 .btn-primary{
     border-radius: 5px;
     background: #fd6e0a;
+    border: 0;
+    color: #fff;
+    font-size: 20px;
+    padding: 18px 35px;
 }
